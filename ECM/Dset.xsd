@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Dset" targetNamespace="http://tempuri.org/Dset.xsd" xmlns:mstns="http://tempuri.org/Dset.xsd" xmlns="http://tempuri.org/Dset.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection ConnectionStringObject="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=&quot;C:\Users\Mr.Moham'd\source\repos\ECM\OutPut\Debug\Database\db.accdb&quot;" IsAppSettingsProperty="false" Modifier="Assembly" Name="db.accdb2" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Dset" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="Dset" msprop:Generator_UserDSName="Dset">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tblTempECM_2" msprop:Generator_TableClassName="tblTempECM_2DataTable" msprop:Generator_TableVarName="tabletblTempECM_2" msprop:Generator_TablePropName="tblTempECM_2" msprop:Generator_RowDeletingName="tblTempECM_2RowDeleting" msprop:Generator_RowChangingName="tblTempECM_2RowChanging" msprop:Generator_RowEvHandlerName="tblTempECM_2RowChangeEventHandler" msprop:Generator_RowDeletedName="tblTempECM_2RowDeleted" msprop:Generator_UserTableName="tblTempECM_2" msprop:Generator_RowChangedName="tblTempECM_2RowChanged" msprop:Generator_RowEvArgName="tblTempECM_2RowChangeEvent" msprop:Generator_RowClassName="tblTempECM_2Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="emNumber" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnemNumber" msprop:Generator_ColumnPropNameInRow="emNumber" msprop:Generator_ColumnPropNameInTable="emNumberColumn" msprop:Generator_UserColumnName="emNumber" type="xs:int" minOccurs="0" />
+              <xs:element name="emSN" msprop:Generator_ColumnVarNameInTable="columnemSN" msprop:Generator_ColumnPropNameInRow="emSN" msprop:Generator_ColumnPropNameInTable="emSNColumn" msprop:Generator_UserColumnName="emSN" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="emPhese" msprop:Generator_ColumnVarNameInTable="columnemPhese" msprop:Generator_ColumnPropNameInRow="emPhese" msprop:Generator_ColumnPropNameInTable="emPheseColumn" msprop:Generator_UserColumnName="emPhese" type="xs:unsignedByte" minOccurs="0" />
+              <xs:element name="emState" msprop:Generator_ColumnVarNameInTable="columnemState" msprop:Generator_ColumnPropNameInRow="emState" msprop:Generator_ColumnPropNameInTable="emStateColumn" msprop:Generator_UserColumnName="emState" type="xs:boolean" minOccurs="0" />
+              <xs:element name="cusNumber" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columncusNumber" msprop:Generator_ColumnPropNameInRow="cusNumber" msprop:Generator_ColumnPropNameInTable="cusNumberColumn" msprop:Generator_UserColumnName="cusNumber" type="xs:int" minOccurs="0" />
+              <xs:element name="cusName" msprop:Generator_ColumnVarNameInTable="columncusName" msprop:Generator_ColumnPropNameInRow="cusName" msprop:Generator_ColumnPropNameInTable="cusNameColumn" msprop:Generator_UserColumnName="cusName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="cusPhone" msprop:Generator_ColumnVarNameInTable="columncusPhone" msprop:Generator_ColumnPropNameInRow="cusPhone" msprop:Generator_ColumnPropNameInTable="cusPhoneColumn" msprop:Generator_UserColumnName="cusPhone" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Expr1" msprop:Generator_ColumnVarNameInTable="columnExpr1" msprop:Generator_ColumnPropNameInRow="Expr1" msprop:Generator_ColumnPropNameInTable="Expr1Column" msprop:Generator_UserColumnName="Expr1" type="xs:int" minOccurs="0" />
+              <xs:element name="billNumber" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnbillNumber" msprop:Generator_ColumnPropNameInRow="billNumber" msprop:Generator_ColumnPropNameInTable="billNumberColumn" msprop:Generator_UserColumnName="billNumber" type="xs:int" minOccurs="0" />
+              <xs:element name="Expr2" msprop:Generator_ColumnVarNameInTable="columnExpr2" msprop:Generator_ColumnPropNameInRow="Expr2" msprop:Generator_ColumnPropNameInTable="Expr2Column" msprop:Generator_UserColumnName="Expr2" type="xs:int" minOccurs="0" />
+              <xs:element name="Expr3" msprop:Generator_ColumnVarNameInTable="columnExpr3" msprop:Generator_ColumnPropNameInRow="Expr3" msprop:Generator_ColumnPropNameInTable="Expr3Column" msprop:Generator_UserColumnName="Expr3" type="xs:int" minOccurs="0" />
+              <xs:element name="emhNumber" msprop:Generator_ColumnVarNameInTable="columnemhNumber" msprop:Generator_ColumnPropNameInRow="emhNumber" msprop:Generator_ColumnPropNameInTable="emhNumberColumn" msprop:Generator_UserColumnName="emhNumber" type="xs:int" minOccurs="0" />
+              <xs:element name="emLastValue" msprop:Generator_ColumnVarNameInTable="columnemLastValue" msprop:Generator_ColumnPropNameInRow="emLastValue" msprop:Generator_ColumnPropNameInTable="emLastValueColumn" msprop:Generator_UserColumnName="emLastValue" type="xs:decimal" minOccurs="0" />
+              <xs:element name="emCurrentValue" msprop:Generator_ColumnVarNameInTable="columnemCurrentValue" msprop:Generator_ColumnPropNameInRow="emCurrentValue" msprop:Generator_ColumnPropNameInTable="emCurrentValueColumn" msprop:Generator_UserColumnName="emCurrentValue" type="xs:decimal" minOccurs="0" />
+              <xs:element name="billAmount" msprop:Generator_ColumnVarNameInTable="columnbillAmount" msprop:Generator_ColumnPropNameInRow="billAmount" msprop:Generator_ColumnPropNameInTable="billAmountColumn" msprop:Generator_UserColumnName="billAmount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="billPricePerKw" msprop:Generator_ColumnVarNameInTable="columnbillPricePerKw" msprop:Generator_ColumnPropNameInRow="billPricePerKw" msprop:Generator_ColumnPropNameInTable="billPricePerKwColumn" msprop:Generator_UserColumnName="billPricePerKw" type="xs:decimal" minOccurs="0" />
+              <xs:element name="billServicesAmount" msprop:Generator_ColumnVarNameInTable="columnbillServicesAmount" msprop:Generator_ColumnPropNameInRow="billServicesAmount" msprop:Generator_ColumnPropNameInTable="billServicesAmountColumn" msprop:Generator_UserColumnName="billServicesAmount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="billDiff" msprop:Generator_ColumnVarNameInTable="columnbillDiff" msprop:Generator_ColumnPropNameInRow="billDiff" msprop:Generator_ColumnPropNameInTable="billDiffColumn" msprop:Generator_UserColumnName="billDiff" type="xs:decimal" minOccurs="0" />
+              <xs:element name="billDate" msprop:Generator_ColumnVarNameInTable="columnbillDate" msprop:Generator_ColumnPropNameInRow="billDate" msprop:Generator_ColumnPropNameInTable="billDateColumn" msprop:Generator_UserColumnName="billDate" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
